@@ -15,6 +15,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Maven Hello'
+                
+        stage('compile') {
+            steps {
+                echo 'Compile my job'
             }
         }
     }
